@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#e75480"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHeight"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Height" />
+
+    <TextView
+        android:id="@+id/tvFeet"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15sp"
+        android:text="Feet" />
+
+    <Spinner
+        android:id="@+id/spnHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="100dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvInch"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15sp"
+        android:text="Inch" />
+
+    <Spinner
+        android:id="@+id/spnInch"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="100dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Weight"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CALCULATE" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="80sp"
+        android:layout_gravity="center"
+        android:text="VIEW HISTORY" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#e75480"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#e75480"
+        android:fontFamily=""
+        android:text="" />
+
+
+</LinearLayout>
